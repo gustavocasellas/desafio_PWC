@@ -2,7 +2,7 @@ var endereco = [];
 const alfabetoMaiusculo = /[A-Z]/;
 const alfabetoMinusculo = /[a-z]/;
 const numerico = /[0-9]/;
-const especialA = /[ÀÁÂÃÄÅ - àáâãäå - ÈÉÊË - Ç - ç - èéêë - úùü - ÚÙÜ]/;
+const especialA = /[ÀÁÂÃÄÅ - àáâãäå - ÈÉÊË - èéêë - Ç - ç - ÌÍÏ - íìï - úùü - ÚÙÜ]/;
 var textoFinal = "";
 var array = [];
 
