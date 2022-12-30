@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="#" />
+    <title>Basic FrontEnd Interface</title>
+    <meta name="description" content="Basic FrontEnd Interface for API">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+		<div id="logo">Simple FrontEnd: JavaScript</div>
+	</header>
+
+  <section id="pageContent">
+    <div id="displayMessages" style="background-color: #DCDCDC;"></div>
+    <br>
+    <div id="signin" style="display: block">
+      <article>
+        <h2>Registrar Endereço</h2>
+        <form id="enderecoForm"><br>
+          <label>Endereço:</label>
+          <input id="box" name="adress" type="text"/>
+          <input type="button" value="Salvar" onclick="registrar()">
+        </form>
+      </article>
+    </div>
+
+    <div>
+      <p></p>
+       <table width="100%" border="1">
+      <thead>
+        <th>Endereços</th>
+      </thead>
+      <tbody id="insertHere"></tbody>
+      </table>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>Simple FrontEnd with JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
